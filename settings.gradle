@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolution {
+    eagerlyConfigureReconfigurationRecipe {
+        afterProject { project ->
+            // Gradle recipe
+        }
+    }
+}
+rootProject.name = "Sala PB"
+include ':app'
